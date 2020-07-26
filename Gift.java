@@ -3,7 +3,7 @@ package com.Epam.mavenProject;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Gifts {
+public class Gift {
 	public int weight;
 	public int cost;
 	public static ArrayList<Integer> wt = new ArrayList<Integer>();
