@@ -2,10 +2,10 @@ package com.Epam.mavenProject;
 
 import java.util.TreeMap;
 
-public class Chocolates extends Gifts {
+public class Choco extends Gift {
 	String name;
 	public static TreeMap<Integer,String> tm = new TreeMap<Integer,String>();
-	public Chocolates(int w,int p,String n){
+	public Choco(int w,int p,String n){
 		weight = w;
 		cost = p;
 		name = n;
@@ -17,15 +17,15 @@ public class Chocolates extends Gifts {
 			tm.put(p,tm.get(p));
 
 	}
-	public Chocolates() {
+	public Choco() {
 		
 	}
-	public void sortChocolates(){
+	public void sortChoco(){
 		for(int i:tm.keySet()){
 			System.out.println(tm.i+" "+i);
 		}
 	}
-	public void getChocolatesInRange(int low,int high){
+	public void getChocoInRange(int low,int high){
 		System.out.println("Candies in range Rs"+low+" Rs"+high);
 		for(int i:tm.keySet()){
 			if(i >= low && i <= high){
